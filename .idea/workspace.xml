@@ -4,14 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf78c646-c027-4b27-b921-dd757ffe1712" name="更改" comment="第一次提交">
-      <change afterPath="$PROJECT_DIR$/static/image/ht.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blog_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/fz_xmProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fz_xmProject.iml" afterDir="false" />
+    <list default="true" id="bf78c646-c027-4b27-b921-dd757ffe1712" name="更改" comment="第二次提交">
+      <change afterPath="$PROJECT_DIR$/static/js/pub_blog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/wangeditor/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/wangeditor/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/html/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/html/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/html/pub_blog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/html/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zlauth/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fz_xmProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/fz_xmProject/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/html/blog_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/html/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,13 +31,19 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="Python Script" />
         <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -57,34 +70,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
-    "django.template.preview.state": "SHOW_EDITOR",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/fz_xm/fz_xmProject/static/image",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.pycharm.django.structure.promotion.once.per.project&quot;: &quot;true&quot;,
+    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;yun 上的 #1&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/fz_xm/fz_xmProject/static&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\fz_xm\fz_xmProject\static" />
       <recent name="D:\fz_xm\fz_xmProject\static\image" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\fz_xm\fz_xmProject\templates\html" />
+      <recent name="D:\fz_xm\fz_xmProject\templates" />
       <recent name="D:\fz_xm\fz_xmProject\static\image" />
       <recent name="D:\fz_xm\fz_xmProject\static\css" />
       <recent name="D:\fz_xm\fz_xmProject\static" />
-      <recent name="D:\fz_xm\fz_xmProject\image" />
     </key>
   </component>
   <component name="RunManager">
@@ -132,7 +147,9 @@
       <workItem from="1735984344150" duration="90000" />
       <workItem from="1735984446965" duration="10827000" />
       <workItem from="1735995804149" duration="1936000" />
-      <workItem from="1736062700374" duration="4030000" />
+      <workItem from="1736062700374" duration="4464000" />
+      <workItem from="1736165584265" duration="3353000" />
+      <workItem from="1736406317400" duration="4756000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <option name="closed" value="true" />
@@ -150,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735995180475</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="第二次提交">
+      <option name="closed" value="true" />
+      <created>1736072636653</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1736072636653</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +183,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="第一次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="第一次提交" />
+    <MESSAGE value="第二次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="第二次提交" />
   </component>
 </project>
