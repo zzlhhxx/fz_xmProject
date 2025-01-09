@@ -2,17 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>云博客</title>
+    <title>{% block title %}{% endblock %}-云博客</title>
     <link rel="stylesheet" href="{% static 'bootstrap.min.css' %}">
     <script src="{% static 'popper.min.js' %}"></script>
     <script src="{% static 'bootstrap.min.js' %}"></script>
     <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    {% block head %}{% endblock %}
 </head>
 <body>
 <header class="p-3 text-bg-light border-bottom mb-3">
     <div class="container">
         <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+            <a href="/static" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
                 <img src="{% static 'image/niao.jpg' %}" alt="" height="45">
             </a>
 
@@ -35,25 +36,7 @@
     </div>
 </header>
 <main class="container bg-white p-3 rounded-3">
-    <h1>练习课堂</h1>
-    <div class="row row-cols-2 row-gap-4">
-        <div class="col">
-            <div class="card text-center">
-                <div class="card-header">
-                    <a href="#">django项目练习</a>
-                </div>
-                <div class="card-body" style="height: 80px;">
-
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-
-                </div>
-                <div class="card-footer text-body-secondary">
-                    2 days ago
-                </div>
-            </div>
-        </div>
-
-    </div>
+    {% block main %}{% endblock %}
 
 </main>
 </body>
